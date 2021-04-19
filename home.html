@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <h1>Create An Account</h1>
+    <form action="">
+      <lavel for="FirstName">First Name</lavel>
+      <input
+        id="FirstName"
+        required
+        placeholder="First Name"
+        type="text"
+      /><br />
+      <lavel for="LastName">Last Name</lavel>
+      <input id="LastName" required placeholder="Last Name" type="text" /><br />
+      <lavel for="Email">Email</lavel>
+      <input id="Email" required placeholder="Email" type="Email" /><br />
+      <lavel for="Username">Uaername</lavel>
+      <input id="Username" required placeholder="Uaername" type="text" /><br />
+      <lavel for="Password">Password</lavel>
+      <input
+        id="Password"
+        required
+        minlength="10"
+        placeholder="Password"
+        type="password"
+      /><br />
+      <lavel for="Birthdate">Birth date</lavel>
+      <input
+        id="Birthdate"
+        required
+        type="date"
+        pattern="\d{4}-\d{2}-\d{2}"
+      /><br />
+      <lavel for="Happy">How happy are you?</lavel>
+      <input id="Happy" required type="range" step="10" /><br />
+      <lavel for="Color">What is your fav. color?</lavel>
+      <input id="Color" required type="color" /><br />
+      <input type="submit" value="Create Account" /><br />
+    </form>
+  </body>
+</html>
